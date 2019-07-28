@@ -1,0 +1,6 @@
+provider "google" {
+
+      credentials = ""
+      region = ""
+
+}
