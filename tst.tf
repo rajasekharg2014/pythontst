@@ -1,6 +1,6 @@
 provider "google" {
+  credentials = "${file("safile.json")}"
+  project = "gcp-core-team"
 
-      credentials = ""
-      region = ""
-
+  region      = "europe-west1"
 }
